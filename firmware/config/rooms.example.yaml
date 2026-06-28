@@ -1,0 +1,6 @@
+rooms:
+  - name: Living Room
+    temperature: sensor.living_temperature
+    humidity: sensor.living_humidity
+    occupancy: binary_sensor.living_presence
+    climate: switch.living_ac

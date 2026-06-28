@@ -1,0 +1,4 @@
+.esphome/
+build/
+.vscode/
+firmware/secrets.yaml

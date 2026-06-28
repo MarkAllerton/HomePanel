@@ -1,6 +1,0 @@
-esphome:
-  name: homepanel
-
-# Thin configuration.
-# Hardware, WiFi and Home Assistant bindings live here.
-# Application logic lives in C++.

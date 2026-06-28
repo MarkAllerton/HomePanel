@@ -1,7 +1,0 @@
-name: Build
-on: [push]
-jobs:
-  placeholder:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Future ESPHome build pipeline"

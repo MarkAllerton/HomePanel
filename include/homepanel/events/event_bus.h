@@ -2,10 +2,10 @@
 
 class EventBus
 {
- public:
-  template <typename TEvent>
-  void publish(const TEvent&);
+  public:
+    template <typename TEvent>
+    void publish(const TEvent&);
 
-  template <typename TEvent>
-  void subscribe(...);
+    template <typename TEvent>
+    void subscribe(...);
 };

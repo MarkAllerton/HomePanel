@@ -1,9 +1,9 @@
 #pragma once
 namespace homepanel
 {
-class Engine
-{
- public:
-  void initialize();
-};
+  class Engine
+  {
+    public:
+      void initialize();
+  };
 }  // namespace homepanel

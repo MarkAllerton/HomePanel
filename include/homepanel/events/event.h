@@ -2,6 +2,6 @@
 
 class Event
 {
- public:
-  virtual ~Event() = default;
+  public:
+    virtual ~Event() = default;
 };

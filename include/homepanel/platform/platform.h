@@ -2,7 +2,7 @@
 
 class Platform
 {
- public:
-  void initialize();
-  void shutdown();
+  public:
+    void initialize();
+    void shutdown();
 };

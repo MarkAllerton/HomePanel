@@ -1,7 +1,7 @@
 #pragma once
 class Renderer
 {
- public:
-  void initialize();
-  void shutdown();
+  public:
+    void initialize();
+    void shutdown();
 };

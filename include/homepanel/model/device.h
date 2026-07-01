@@ -1,7 +1,7 @@
 #pragma once
 namespace homepanel
 {
-class Device
-{
-};
+  class Device
+  {
+  };
 }  // namespace homepanel

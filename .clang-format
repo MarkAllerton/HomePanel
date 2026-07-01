@@ -1,5 +1,7 @@
 BasedOnStyle: Google
 IndentWidth: 2
+NamespaceIndentation: All
+IndentAccessModifiers: true
 BreakBeforeBraces: Custom
 BraceWrapping:
   AfterClass: true

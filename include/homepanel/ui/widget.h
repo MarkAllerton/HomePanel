@@ -1,7 +1,7 @@
 #pragma once
 namespace homepanel
 {
-class Widget
-{
-};
+  class Widget
+  {
+  };
 }  // namespace homepanel

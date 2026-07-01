@@ -2,6 +2,6 @@
 
 class Model
 {
- public:
-  Site& site();
+  public:
+    Site& site();
 };

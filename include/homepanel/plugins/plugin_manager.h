@@ -1,9 +1,12 @@
 #pragma once
+
 namespace homepanel
 {
-  class IDisplay
+
+  class PluginManager
   {
     public:
-      virtual ~IDisplay() = default;
+      void initialize();
   };
+
 }  // namespace homepanel

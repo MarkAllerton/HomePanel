@@ -1,9 +1,14 @@
 #pragma once
+
 namespace homepanel
 {
-  class IDisplay
+
+  class Platform
   {
     public:
-      virtual ~IDisplay() = default;
+      void initialize();
+
+      void shutdown();
   };
+
 }  // namespace homepanel

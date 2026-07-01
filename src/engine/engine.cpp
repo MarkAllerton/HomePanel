@@ -1,12 +1,16 @@
 #include "homepanel/engine/engine.h"
+
 namespace homepanel
 {
-  Engine::initialize()
-  {
-    m_services.platform().initialize();
-    m_services.renderer().initialize();
 
-    // Later:
-    // plugins.initialize();
-  }
+  Engine::Engine() = default;
+
+  Engine::~Engine() = default;
+
+  void Engine::initialize() {}
+
+  void Engine::shutdown() {}
+
+  void Engine::run() {}
+
 }  // namespace homepanel

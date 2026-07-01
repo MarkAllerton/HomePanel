@@ -1,10 +1,12 @@
 #pragma once
 
-class Plugin
+namespace homepanel
 {
-  public:
-    virtual ~Plugin() = default;
 
-    virtual void initialize() = 0;
-    virtual void shutdown() = 0;
-};
+  class PluginManager
+  {
+    public:
+      void initialize();
+  };
+
+}  // namespace homepanel

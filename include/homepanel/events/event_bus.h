@@ -1,11 +1,12 @@
 #pragma once
 
-class EventBus
+namespace homepanel
 {
-  public:
-    template <typename TEvent>
-    void publish(const TEvent&);
 
-    template <typename TEvent>
-    void subscribe(...);
-};
+  class EventBus
+  {
+    public:
+      EventBus() = default;
+  };
+
+}  // namespace homepanel

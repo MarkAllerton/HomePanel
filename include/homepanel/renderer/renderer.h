@@ -1,7 +1,14 @@
 #pragma once
-class Renderer
+
+namespace homepanel
 {
-  public:
-    void initialize();
-    void shutdown();
-};
+
+  class Renderer
+  {
+    public:
+      void initialize();
+
+      void shutdown();
+  };
+
+}  // namespace homepanel

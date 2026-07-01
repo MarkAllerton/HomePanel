@@ -1,7 +1,17 @@
 #pragma once
 
-class Model
+#include "homepanel/model/site.h"
+
+namespace homepanel
 {
-  public:
-    Site& site();
-};
+
+  class Model
+  {
+    public:
+      Site& site() { return m_site; }
+
+    private:
+      Site m_site;
+  };
+
+}  // namespace homepanel

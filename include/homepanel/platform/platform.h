@@ -1,8 +1,14 @@
 #pragma once
 
-class Platform
+namespace homepanel
 {
-  public:
-    void initialize();
-    void shutdown();
-};
+
+  class Platform
+  {
+    public:
+      void initialize();
+
+      void shutdown();
+  };
+
+}  // namespace homepanel
